@@ -1,0 +1,31 @@
+name: unit_7_assignment_dalisay
+description: "An activity to learn how to fetch API requests with Dart and Flutter"
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_expanded_tile: ^0.4.0
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
